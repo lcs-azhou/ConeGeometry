@@ -8,17 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		79970DCF2B0705390033B2C2 /* ConeGeometryApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79970DCE2B0705390033B2C2 /* ConeGeometryApp.swift */; };
-		79970DD12B0705390033B2C2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79970DD02B0705390033B2C2 /* ContentView.swift */; };
 		79970DD32B07053C0033B2C2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79970DD22B07053C0033B2C2 /* Assets.xcassets */; };
 		79970DD62B07053C0033B2C2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79970DD52B07053C0033B2C2 /* Preview Assets.xcassets */; };
+		79970DDF2B0706160033B2C2 /* ConeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79970DDE2B0706160033B2C2 /* ConeView.swift */; };
+		79970DE12B0709720033B2C2 /* Cone.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79970DE02B0709720033B2C2 /* Cone.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		79970DCB2B0705390033B2C2 /* ConeGeometry.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ConeGeometry.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		79970DCE2B0705390033B2C2 /* ConeGeometryApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConeGeometryApp.swift; sourceTree = "<group>"; };
-		79970DD02B0705390033B2C2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		79970DD22B07053C0033B2C2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		79970DD52B07053C0033B2C2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		79970DDE2B0706160033B2C2 /* ConeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConeView.swift; sourceTree = "<group>"; };
+		79970DE02B0709720033B2C2 /* Cone.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cone.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +54,8 @@
 			isa = PBXGroup;
 			children = (
 				79970DCE2B0705390033B2C2 /* ConeGeometryApp.swift */,
-				79970DD02B0705390033B2C2 /* ContentView.swift */,
+				79970DDD2B0705B50033B2C2 /* Model */,
+				79970DDC2B0705690033B2C2 /* Views */,
 				79970DD22B07053C0033B2C2 /* Assets.xcassets */,
 				79970DD42B07053C0033B2C2 /* Preview Content */,
 			);
@@ -65,6 +68,22 @@
 				79970DD52B07053C0033B2C2 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		79970DDC2B0705690033B2C2 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				79970DDE2B0706160033B2C2 /* ConeView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		79970DDD2B0705B50033B2C2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				79970DE02B0709720033B2C2 /* Cone.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +156,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				79970DD12B0705390033B2C2 /* ContentView.swift in Sources */,
+				79970DE12B0709720033B2C2 /* Cone.swift in Sources */,
 				79970DCF2B0705390033B2C2 /* ConeGeometryApp.swift in Sources */,
+				79970DDF2B0706160033B2C2 /* ConeView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
