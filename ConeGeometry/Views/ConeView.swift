@@ -81,12 +81,21 @@ struct ConeView: View {
             }.frame(height: 55)
             
             VStack(alignment: .leading){
+                Text("Height")
+                    .fontWeight(.semibold)
+                Text("\(currentCone.height)")
+                    .fontWeight(.light)
+                    .font(.system(size: 15))
+            }.frame(height: 55)
+            
+            VStack(alignment: .leading){
                 Text("Total Area")
                     .fontWeight(.semibold)
                 Text("\(currentCone.areaTotal)")
                     .fontWeight(.light)
                     .font(.system(size: 15))
             }.frame(height: 55)
+        
             
         }.listStyle(.plain)
         

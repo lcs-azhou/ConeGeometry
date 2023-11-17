@@ -26,4 +26,7 @@ struct Cone {
     var areaTotal: Double{
         return lateralSurfaceArea + baseArea
     }
+    var height: Double {
+        return Double.squareRoot(slantHeight * slantHeight-radius * radius)()
+    }
 }
