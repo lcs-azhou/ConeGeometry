@@ -41,7 +41,13 @@ struct ConeView: View {
                     Text("100")
                         .font(.system(size: 18))
                 }
-                
+                VStack(alignment: .leading){
+                    Text("Height")
+                        .fontWeight(.semibold)
+                    Text("\(currentCone.height)")
+                        .fontWeight(.light)
+                        .font(.system(size: 15))
+                }.frame(height: 55)
             }
                 
                 
@@ -76,14 +82,6 @@ struct ConeView: View {
                 Text("Lateral Surface Area")
                     .fontWeight(.semibold)
                 Text("\(currentCone.lateralSurfaceArea)")
-                    .fontWeight(.light)
-                    .font(.system(size: 15))
-            }.frame(height: 55)
-            
-            VStack(alignment: .leading){
-                Text("Height")
-                    .fontWeight(.semibold)
-                Text("\(currentCone.height)")
                     .fontWeight(.light)
                     .font(.system(size: 15))
             }.frame(height: 55)
